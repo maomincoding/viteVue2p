@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>{{ msg }}, {{ name }}</h3>
+    <h1>{{ msg }}, {{ name }}</h1>
     <button @click="inc">
       Inc
     </button>
@@ -32,10 +32,4 @@ function dec() {
 const decText = '<b>Dec</b>'
 
 watch(()=>count, value => emit('update', value))
-</script>
-
-<script lang="ts">
-export default {
-  name: 'App',
-}
 </script>

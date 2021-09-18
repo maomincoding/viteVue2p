@@ -33,3 +33,8 @@ const decText = '<b>Dec</b>'
 
 watch(()=>count, value => emit('update', value))
 </script>
+<style scoped>
+button{
+  margin: 20px 0;
+}
+</style>

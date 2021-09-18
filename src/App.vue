@@ -14,7 +14,6 @@ import HelloWorld from './HelloWorld.vue'
 const AsyncComponent = defineAsyncComponent(() => import('./Async.vue'))
 
 function onUpdate(e: any) {
-  // eslint-disable-next-line no-console
   console.log(e)
 }
 </script>

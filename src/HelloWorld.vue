@@ -18,7 +18,7 @@ import Bar from './Bar.vue'
 const props = withDefaults(defineProps<{ msg: string; name: string | number }>(), { msg: 'Hello' })
 const emit = defineEmits(['update'])
 
-let count = $ref(0)
+let count = $ref(1)
 // eslint-disable-next-line prefer-const
 let doubled = $computed(() => count * 2)
 
@@ -31,7 +31,7 @@ function dec() {
 
 const decText = '<b>Dec</b>'
 
-watch(count, value => emit('update', value))
+watch(()=>count, value => emit('update', value))
 </script>
 
 <script lang="ts">

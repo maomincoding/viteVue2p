@@ -13,11 +13,10 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.1.5",
-    "@vue/ref-transform": "^3.2.11",
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@vue/runtime-dom": "^3.2.11",
+    "@vue/runtime-dom": "3.2.11",
     "typescript": "^4.4.3",
     "unplugin-vue2-script-setup": "^0.6.4",
     "vite": "^2.5.7",

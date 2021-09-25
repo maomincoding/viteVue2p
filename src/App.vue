@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <hello-world name="Vue 2 + TypeScript + Vite" @update="onUpdate" />
+    <hello-world name="Vue 2 + TypeScript + Vite + Composition-api" @update="onUpdate" />
     <async-component />
   </div>
 </template>
